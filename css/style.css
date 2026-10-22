@@ -74,7 +74,7 @@ h6 {
 
 /***** Cabeçalho *****/
 
-/* Seleciona o elemento "header" que é filho direto do emelento div#wrap */
+/* Seleciona o elemento "header" que é filho direto do elemento div#wrap */
 #wrap>header {
     background-color: #f5dce0;
     padding: 1rem;
@@ -136,7 +136,7 @@ h6 {
 #wrap>nav {
     background-color: #fffbf5;
     display: flex;
-     border-top: 1px solid  #fffbf5;
+    border-top: 1px solid  #fffbf5;
     border-bottom: 1px solid  #fffbf5;
 }
 
