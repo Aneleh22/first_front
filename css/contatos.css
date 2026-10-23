@@ -25,14 +25,14 @@ article form button {
 article form input,
 article form textarea {
     width: 100%;
-    background-color: rgb(254, 220, 220);
-    border: 1px solid red;
-    border-bottom: 3px solid red;
+    background-color: #f5dce0;
+    border: 1px solid rgb(248, 174, 174);
+    border-bottom: 3px solid rgb(247, 141, 141);
 }
 
 article form button {
     padding: .5rem 1rem;
-    background-color: grey;
+    background-color: rgb(172, 167, 167);
     color: white;
     cursor: not-allowed;
     /* Bloqueia cliques no elemento */
@@ -46,14 +46,14 @@ article form textarea {
 /* Quando o campo for válido */
 article form input:valid,
 article form textarea:valid {
-    background-color: rgb(221, 255, 221);
+    background-color: rgb(230, 253, 230);
     border: 1px solid green;
     border-bottom: 3px solid green;
 }
 
 /* Libera o botão de envio */
 article form:valid button {
-    background-color: steelblue;
+    background-color: rgb(110, 149, 182);
     cursor: pointer;
     /* Desbloqueia cliques no elemento */
     pointer-events: all;
@@ -73,4 +73,39 @@ aside ul a {
 
 aside ul i {
     font-size: 2rem;
+}
+
+/* mudando a cor do icone e texto do facebook */
+aside ul li:nth-child(1) a {
+    Color:blue;
+}
+
+/* mudando a cor do icone e texto do instagram */
+aside ul li:nth-child(2) a {
+    color:#bd2b5c
+}
+
+/* mudando a cor do icone e texto youtube */
+aside ul li:nth-child(3) a {
+    color: red
+}
+
+/*tira o sublinhado geral dos links */
+aside ul a {
+    text-decoration: none;
+}
+/* cores de cada item e sublinhado apenas no span (texto) */
+aside ul li:nth-child(1) a:hover span {
+    color: blue;
+    text-decoration: underline;
+}
+
+aside ul li:nth-child(2) a:hover span {
+    color: #bd2b5c;
+    text-decoration: underline;
+}
+
+aside ul li:nth-child(3) a:hover span {
+    color: red;
+    text-decoration: underline;
 }
