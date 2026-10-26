@@ -4,6 +4,11 @@
 
 /***** Reset Geral *****/
 
+/* 
+Ajusta as tags para se comportar da mesma forma,
+mesmo com diferenças entre navegadores.
++/
+
 /* Todas as caixas */
 * {
     box-sizing: border-box;
@@ -85,6 +90,7 @@ h6 {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    transition: 1s;
 }
 
 /* Apenas imagem dentro do header. */
@@ -224,10 +230,18 @@ h6 {
 
 /***** Classes de uso geral *****/
 
-/* Imagens responsivas */
+/* Imagens responsivas crescem até o tamanho original */
 img.responsive {
     max-width: 100%;
     width: auto;
+}
+
+.text-red {
+    color: red;
+}
+
+.center {
+    text-align: center;
 }
 
 /**************************/
